@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Main Container */
+  .todo-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Title */
+  .todo-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: black;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  /* Input Container */
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .todo-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .add-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-btn:hover {
+    background-color: darkred;
+  }
+  
+  /* Table */
+  .todo-table {
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  
+  .todo-table th,
+  .todo-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .todo-table th {
+    background-color: #f8f8f8;
+  }
+  /* Enhanced Table */
+.todo-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table Header */
+  .todo-table th {
+    background-color: #007bff;
+    color: black;
+    padding: 12px;
+    text-align: left;
+    font-size: 18px;
+  }
+  
+  /* Table Rows */
+  .todo-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    color: black;
+  }
+  
+  /* Alternating Row Colors */
+  .todo-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .todo-table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  /* Row Hover Effect */
+  .todo-table tbody tr:hover {
+    background-color: #e0f3ff;
+    transition: background 0.3s ease;
+  }
+  

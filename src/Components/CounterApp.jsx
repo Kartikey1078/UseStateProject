@@ -8,7 +8,7 @@ function CounterApp() {
     <div className="container">
        
       <div className="counter-box">
-        <h1 style={{color:'black'}}>Counter App</h1>
+        <h1 style={{color:'black',fontSize:'40px'}}>Counter App</h1>
         <p className="count">{count}</p>
         <div className="button-group">
           <button className="btn increment" onClick={() => setCount(count + 1)}>
