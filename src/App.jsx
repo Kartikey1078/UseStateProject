@@ -6,6 +6,7 @@ import CounterApp from './Components/CounterApp'
 import TodoApp from './Components/TodoApp'
 import bgChanger from './assets/bgChanger.png'
 import FormInputTracker from './Components/FormInputTracker'
+import LikeDislike from './Components/LikeDislike'
 function App() {
   let [bgColor,setbgColor] = useState("white");
 
@@ -18,8 +19,9 @@ function App() {
   }
   return (
     <div className='parentDiv' >
-      <h1 style={{color:bgColor == "black"? "white" : 'black',textAlign:'center'}}>Mini Project to Learn useState()</h1>
-      <FormInputTracker></FormInputTracker>
+      <h1 style={{color:bgColor == "black"? "white" : 'black',textAlign:'center'}}>Mini Project to Understand useState();</h1>
+    <LikeDislike></LikeDislike>
+    <FormInputTracker></FormInputTracker>
      <CounterApp></CounterApp>
      <TodoApp></TodoApp>
      <img src={bgChanger}
