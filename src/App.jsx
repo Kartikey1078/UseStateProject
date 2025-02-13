@@ -18,7 +18,7 @@ function App() {
   }
   return (
     <div className='parentDiv' >
-      <h1 style={{color:bgColor == "black"? "white" : 'black'}}>Mini Project to Learn useState()</h1>
+      <h1 style={{color:bgColor == "black"? "white" : 'black',textAlign:'center'}}>Mini Project to Learn useState()</h1>
       <FormInputTracker></FormInputTracker>
      <CounterApp></CounterApp>
      <TodoApp></TodoApp>
